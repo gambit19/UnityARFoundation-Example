@@ -95,10 +95,6 @@ public class ObjectPlacement : MonoBehaviour
                 //Setting instantiated model's parent to model parent
                 placedObject.gameObject.transform.parent = modelParent.transform;
             }
-            else
-            {
-                Debug.Log("-->> Bool is false");
-            }
         }
     }
 
